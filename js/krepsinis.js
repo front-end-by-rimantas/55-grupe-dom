@@ -29,3 +29,7 @@ appDOM.innerHTML = `
         <div class="entry away">Antra komanda pelne 3 taskus.</div>
     </div>
 `;
+
+const [homeResultDOM, awayResultDOM] = appDOM.querySelectorAll('.result');
+const [home1, home2, home3, away1, away2, away3] = appDOM.querySelectorAll('button');
+const historyDOM = appDOM.querySelector('.history');
